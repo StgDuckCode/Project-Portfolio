@@ -9,3 +9,11 @@ The "robot_interface.py" used to declare the parameters was designed by Theconst
 
 ## ESP-32 HomeAssistant-controlled kettle
 Work in progress - see [Kettle Project](https://github.com/StgDuckCode/Kettle-Project) for details.
+
+## 6DoF Robot Arm controller in Python
+Project Aim: Investigate whether [LewanSoul Xarm1](https://xarm-lewansoul-ros.readthedocs.io/en/latest/index.html) can pick and place Petri dishes for inoculation during the minimum inhibitory concentration (MIC) process. Master's uni project.
+Task of the code: read the joint trajectory from the robot simulation, output the trajectory, and then record the actual robot trajectory.
+
+Uses source code for: 
+- [HID communication](https://github.com/libusb/hidapi.git)
+- [controller methods](https://github.com/adeguet1/lewansoul-xarm.git)
