@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#! /usr/bin/bash 
 # the above line is called a shebang
 # the above line must be the first line always
 # everything comes after the shebang line
