@@ -14,6 +14,8 @@ Work in progress - see [Kettle Project](https://github.com/StgDuckCode/Kettle-Pr
 Project Aim: Investigate whether [LewanSoul Xarm1](https://xarm-lewansoul-ros.readthedocs.io/en/latest/index.html) can pick and place Petri dishes for inoculation during the minimum inhibitory concentration (MIC) process. Master's uni project.
 Task of the code: read the joint trajectory from the robot simulation, output the trajectory, and then record the actual robot trajectory.
 
+see [Video](https://youtube.com/shorts/f9CUZDWoMhA?feature=share) for results.
+
 Uses source code for: 
 - [HID communication](https://github.com/libusb/hidapi.git)
 - [controller methods](https://github.com/adeguet1/lewansoul-xarm.git)
